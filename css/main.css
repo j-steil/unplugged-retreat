@@ -131,11 +131,11 @@ textarea {
    }
 
    img {
-
+     width: 100%;
    }
 
    figure {
-
+     margin: 0;
    }
 
    address {
@@ -175,6 +175,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -246,6 +254,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -263,6 +272,8 @@ aside {
 }
 
 .features {
+  background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -516,6 +527,10 @@ input[type=button] {
     display: none;
   }
 
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -560,6 +575,7 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -658,10 +674,6 @@ input[type=button] {
     max-width: 960px;
   }
 
-  .hero-area h1 {
-    width: 60%;
-  }
-
   h2 {
     font-size: 2.25em;
   }
@@ -677,7 +689,7 @@ input[type=button] {
 
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
   aside .content-wrapper {
