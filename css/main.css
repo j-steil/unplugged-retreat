@@ -241,6 +241,8 @@ footer .copyright {
 /* --- mobile homepage --- */
 
 .hero-area {
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
